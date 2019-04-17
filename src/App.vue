@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <div class="blue_box">
+    <span>Hello</span>
+    </div>
     <div id="nav">
       <router-link
         v-if="authenticated"
